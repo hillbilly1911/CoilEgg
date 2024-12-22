@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CoilEgg:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CoilEgg_jar</output-path>
+    <root id="archive" name="CoilEgg.jar">
+      <element id="module-output" name="CoilEgg" />
+    </root>
+  </artifact>
+</component>

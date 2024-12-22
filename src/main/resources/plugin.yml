@@ -1,0 +1,17 @@
+name: CoilEgg
+version: '1.0-SNAPSHOT'
+main: hillbilly1911.thecoil.coilEgg.CoilEgg
+api-version: '1.21'
+load: STARTUP
+authors: [ Hillbilly1911 ]
+description: You've been egged!
+website: https://thecoilmc.com/
+commands:
+  egg:
+    description: Throws an egg at players.
+    usage: /egg
+    permission: coilegg.use
+permissions:
+  coilegg.use:
+    description: Allows the player to throw eggs with the /egg command.
+    default: op
